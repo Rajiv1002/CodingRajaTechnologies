@@ -1,0 +1,463 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMusic</title>
+    <link rel="stylesheet" href="F:/Web_development/music_app/styling.css" />
+    <link rel="icon" href="logo3.webp" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="F:/Web_development/music_app/images/download.jpg" alt="Music" /></li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>Enjoy Music With No ADS</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="1"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram
+              
+            </span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="2"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="3"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="4"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="5"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="6"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram?</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="7"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram?</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="8"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram?</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="9"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="F:/Web_development/music_app/images/Ram_siya_ram.jpg" alt="1" />
+            <span class="songName">Ram Siya Ram?</span>
+            <span class="songlistplay"
+              ><span class="time"
+                ><i
+                  id="10"
+                  class="fa-solid songitemplay2 fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myprogressbar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icon">
+        <i
+          id="previous"
+          class="fa-solid songitemplay fa-3x fa-step-backward"
+        ></i>
+        <i
+          class="fa-solid songitemplay fa-3x fa-play-circle"
+          id="masterPlay"
+        ></i>
+        <i id="next" class="fa-solid songitemplay fa-3x fa-step-forward"></i>
+      </div>
+      <div class="songinfo"><span
+          id="mastersonginfo"
+          >Ram Siya Ram?</span
+        >
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/56cec3d5b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="F:/Web_development/music_app/script.js"></script>
+  </body>
+</html>
+//css
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background: linear-gradient(-45deg, #fc0000, #e73c7e, #23a6d5, #ff0022);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+body {
+  background-color: rgb(255, 145, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+  position: sticky;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: rgb(68, 58, 214);
+  color: rgb(0, 0, 0);
+}
+nav ul li {
+  padding: 0 12px;
+  cursor: pointer;
+}
+.brand img {
+  width: 57px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  cursor: auto;
+}
+.container {
+  min-height: 72vh;
+  width: 75%;
+  border-radius: 12px;
+  background-color: rgb(245, 122, 184);
+  color: rgb(0, 0, 0);
+  font-style: "Verala Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  padding: 34px;
+  background-image: url("back2.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  color: white;
+  height: 150px;
+  background-color: black;
+  bottom: 0;
+  transition: 1s ease;
+}
+.icon {
+  margin-top: 16px;
+}
+.icon i {
+  cursor: pointer;
+}
+#myprogressbar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songitemcontainer {
+  margin-top: 80px;
+}
+.songitem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 32px;
+}
+.songitem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 32px;
+}
+.time {
+  margin: 0 23px;
+}
+.time i {
+  cursor: pointer;
+}
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  font-style: "Verala Round", sans-serif;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+@media (max-width: 800px) {
+  .songinfo {
+    position: relative;
+    left: 0;
+  }
+}
+//javascript
+console.log("Wellcome to MyMusic");
+
+let songIndex = 0;
+let masterPlay = document.getElementById("masterPlay");
+let myProgerssbar = document.getElementById("myprogressbar");
+let opac = document.getElementById("opac");
+let audioElement = new Audio("1.mp3");
+let mastersonginfo = document.getElementById("mastersonginfo");
+let songItems = Array.from(document.getElementsByClassName("songitem"));
+
+let songs = [
+  { songName: "Ram Siya Ram", filePath: "F://Web_development//music_app//music//_Ram Siya Ram(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/Ram_siya_ram.jpg" },
+  { songName: "Bad Boy", filePath: "F:/Web_development/music_app/music/Bad Boy(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/bad_boy.jpg" },
+  { songName: "Catch if you can", filePath: "F:/Web_development/music_app/music/Catch Me If You Can(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/ciyc.jpg" },
+  {songName: "Chaleya",filePath: "F:/Web_development/music_app/music/Chaleya(PagalWorld.com.se).mp3",coverPath: "F:/Web_development/music_app/images/chel.jpg",},
+  { songName: "Drive Forever", filePath: "F:/Web_development/music_app/music/Drive forever (T3NZU Remix)(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/df.jpg" },
+  { songName: "In to Your Arms", filePath: "F:/Web_development/music_app/music/Into Your Arms(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/iya.jpg" },
+  { songName: "Let Me Down Slowly", filePath: "F:/Web_development/music_app/music/Let Me Down Slowly(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/lds.jpg" },
+  { songName: "Let Me Love You", filePath: "F:/Web_development/music_app/music/Let Me Love You(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/lly.jpg" },
+  { songName: "Paradise", filePath: "F:/Web_development/music_app/music/Paradise(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/paradise.jpg" },
+  { songName: "Sorry", filePath: "F:/Web_development/music_app/music/Sorry(PagalWorld.com.se).mp3", coverPath: "F:/Web_development/music_app/images/sorry.jpg" },
+];
+
+songItems.forEach((element, i) => {
+  element.querySelector("img").src = songs[i].coverPath;
+  element.querySelector(".songName").innerText = songs[i].songName;
+});
+
+const playorpause = () => {
+  if (audioElement.paused || audioElement.currentTime == 0) {
+    audioElement.play();
+    masterPlay.classList.remove("fa-play-circle");
+    masterPlay.classList.add("fa-pause-circle");
+    opac.style.opacity = 1;
+    document.getElementById(songIndex).classList.remove("fa-play-circle");
+    document.getElementById(songIndex).classList.add("fa-pause-circle");
+  } else {
+    audioElement.pause();
+    masterPlay.classList.remove("fa-pause-circle");
+    masterPlay.classList.add("fa-play-circle");
+    opac.style.opacity = 0;
+    document.getElementById(songIndex).classList.remove("fa-pause-circle");
+    document.getElementById(songIndex).classList.add("fa-play-circle");
+  }
+};
+masterPlay.addEventListener("click", playorpause);
+document.addEventListener("keydown", function (x) {
+  if (x.key === " ") {
+    playorpause();
+  }
+});
+audioElement.addEventListener("timeupdate", () => {
+  myProgerssbar.value = 0;
+  let progress = parseFloat(
+    (audioElement.currentTime / audioElement.duration) * 100
+  );
+  myProgerssbar.value = progress;
+});
+myProgerssbar.addEventListener("change", () => {
+  audioElement.currentTime =
+    (myProgerssbar.value * audioElement.duration) / 100;
+});
+
+const makeallpause = () => {
+  Array.from(document.getElementsByClassName("songitemplay2")).forEach(
+    (element) => {
+      element.classList.remove("fa-pause-circle");
+      element.classList.add("fa-play-circle");
+    }
+  );
+};
+
+Array.from(document.getElementsByClassName("songitemplay2")).forEach(
+  (element) => {
+    element.addEventListener("click", (e) => {
+      makeallpause();
+      songIndex = parseInt(e.target.id);
+      if (audioElement.paused) {
+        e.target.classList.remove("fa-play-circle");
+        e.target.classList.add("fa-pause-circle");
+        opac.style.opacity = 1;
+        audioElement.src = `${songIndex}.mp3`;
+        audioElement.play();
+        masterPlay.classList.remove("fa-play-circle");
+        masterPlay.classList.add("fa-pause-circle");
+        mastersonginfo.innerText = songs[songIndex - 1].songName;
+        audioElement.currentTime = 0;
+      } else {
+        e.target.classList.add("fa-play-circle");
+        e.target.classList.remove("fa-pause-circle");
+        opac.style.opacity = 0;
+        audioElement.src = `${songIndex}.mp3`;
+        audioElement.pause();
+        masterPlay.classList.add("fa-play-circle");
+        masterPlay.classList.remove("fa-pause-circle");
+        mastersonginfo.innerText = songs[songIndex - 1].songName;
+        audioElement.currentTime = 0;
+      }
+    });
+  }
+);
+let next = () => {
+  if (songIndex > 9) {
+    songIndex = 1;
+  } else {
+    songIndex += 1;
+  }
+  audioElement.src = `${songIndex}.mp3`;
+  audioElement.currentTime = 0;
+  audioElement.play();
+  masterPlay.classList.remove("fa-play-circle");
+  masterPlay.classList.add("fa-pause-circle");
+  makeallpause();
+  document.getElementById(songIndex).classList.remove("fa-play-circle");
+  document.getElementById(songIndex).classList.add("fa-pause-circle");
+  mastersonginfo.innerText = songs[songIndex - 1].songName;
+  opac.style.opacity = 1;
+};
+document.getElementById("next").addEventListener("click", next);
+document.addEventListener("keydown", function (x) {
+  if (x.key === "ArrowRight") {
+    next();
+  }
+});
+
+let previous = () => {
+  if (songIndex <= 1) {
+    songIndex = 10;
+  } else {
+    songIndex -= 1;
+  }
+  audioElement.src = `${songIndex}.mp3`;
+  audioElement.currentTime = 0;
+  audioElement.play();
+  masterPlay.classList.remove("fa-play-circle");
+  masterPlay.classList.add("fa-pause-circle");
+  makeallpause();
+  document.getElementById(songIndex).classList.remove("fa-play-circle");
+  document.getElementById(songIndex).classList.add("fa-pause-circle");
+  mastersonginfo.innerText = songs[songIndex - 1].songName;
+  opac.style.opacity = 1;
+};
+document.getElementById("previous").addEventListener("click", previous);
+document.addEventListener("keydown", function (x) {
+  if (x.key === "ArrowLeft") {
+    previous();
+  }
+});
+
+audioElement.addEventListener("ended", () => {
+  if (songIndex > 9) {
+    songIndex = 1;
+  } else {
+    songIndex += 1;
+  }
+  audioElement.src = `${songIndex}.mp3`;
+  audioElement.currentTime = 0;
+  audioElement.play();
+  masterPlay.classList.remove("fa-play-circle");
+  masterPlay.classList.add("fa-pause-circle");
+  makeallpause();
+  document.getElementById(songIndex).classList.remove("fa-play-circle");
+  document.getElementById(songIndex).classList.add("fa-pause-circle");
+  mastersonginfo.innerText = songs[songIndex - 1].songName;
+  opac.style.opacity = 1;
+});
